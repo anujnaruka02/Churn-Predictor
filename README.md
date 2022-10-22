@@ -1,6 +1,5 @@
 Link of dataset used : https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
-For the complete code mail me.
 
 This project aims at designing a predictor that helps the organisation to estimate the value of customer churn i.e the number of paying customers who became repeated custmers.
 
@@ -17,3 +16,5 @@ Recall
 Using Adam as an optimizer
 ![Churn3](https://user-images.githubusercontent.com/73575537/197277691-43b3bfb0-e92f-4591-a1d3-013896c0edcb.JPG)
 Using Adagrad as an optimizer
+
+For complete code or other refernce reach out to me on my mail id - anujnaruka02@gmail.com
