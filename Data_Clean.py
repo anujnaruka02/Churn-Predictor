@@ -1,5 +1,5 @@
+#Reading the csv file
 df = pd.read_csv("C:/Users/anujn/OneDrive/Desktop/Churn.csv")
-df.sample(5)
 
 df.drop('customerID', axis = 'columns', inplace = True)
 df.dtypes
@@ -8,6 +8,7 @@ df[pd.to_numeric(df.TotalCharges, errors = 'coerce').isnull()]
 
 df[pd.to_numeric(df.TotalCharges, errors = 'coerce').isnull()].shape
 
+# Replacing the string data into numeric values for the neural network to use the data and train itself
 df1.replace('No internet service','No', inplace = True)
 df1.replace('No phone service','No', inplace = True)
 
