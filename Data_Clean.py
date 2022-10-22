@@ -16,3 +16,10 @@ yes_no_columns = ['Partner','Dependents','PhoneService','MultipleLines','OnlineS
                   'DeviceProtection','TechSupport','StreamingTV','StreamingMovies','PaperlessBilling','Churn']
 for col in yes_no_columns:
     df1[col].replace({'Yes': 1,'No': 0},inplace=True)
+
+df1['gender'].replace({'Female':1,'Male':0},inplace = True)
+
+# One hot encoding
+df2 = pd.get_dummies(data = df1,columns = ['InternetService','Contract','PaymentMethod'])
+df2.columns
+
